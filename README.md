@@ -51,7 +51,7 @@ pkg install git -y
 ### 2. Clone the Repository
 Open your terminal or command prompt and run:
 ```bash
-git clone [https://github.com/AtikHasan169/fbtools.git](https://github.com/AtikHasan169/fbtools.git)
+git clone https://github.com/AtikHasan169/fbtools.git
 cd fbtools
 ```
 
