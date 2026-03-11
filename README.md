@@ -21,7 +21,7 @@ A robust, multi-threaded automation tool designed for seamless, high-volume acco
 Because this bot is securely compiled using PyArmor, **it is strictly locked to Python 3.13.x**. 
 
 * **Desktop Users (Windows/Mac/Linux):** You MUST have Python 3.13 installed on your machine. If you use Python 3.12 or 3.14, the bot will not run. You also need Google Chrome installed on your PC.
-* **Android Users (Termux):** Termux currently defaults to Python 3.13, so you are good to go!
+* **Android Users (Termux):** Termux currently defaults to Python 3.13, so you are good to go! Just make sure to run the initial setup commands below.
 
 ---
 
@@ -38,19 +38,27 @@ The bot dynamically reads your target data from text files located in the same f
 
 ## 🚀 Installation & Usage
 
-Setting up the bot is incredibly simple. You do **not** need to manually install any Python packages—the bot's built-in auto-installer handles everything for you on the first run!
+Setting up the bot is incredibly simple. The script includes a built-in auto-installer that handles almost everything, but brand new Termux users need to grab a few basic tools first.
 
-### 1. Clone the Repository
+### 1. Initial Setup (Termux / Android Users Only)
+If this is your first time using Termux, update your system and install Python and Git before continuing:
+```bash
+pkg update -y && pkg upgrade -y
+pkg install python -y
+pkg install git -y
+```
+
+### 2. Clone the Repository
 Open your terminal or command prompt and run:
 ```bash
-git clone https://github.com/AtikHasan169/fbtools.git
+git clone [https://github.com/AtikHasan169/fbtools.git](https://github.com/AtikHasan169/fbtools.git)
 cd fbtools
 ```
 
-### 2. Prepare Your Data
+### 3. Prepare Your Data
 Make sure you have added your target phone numbers to `phones.txt`. You can also configure `names.txt`, `proxies.txt`, and `countries.txt` as needed before launching the bot.
 
-### 3. Run the Bot (Auto-Installation)
+### 4. Run the Bot (Auto-Installation)
 The bot features a built-in setup script. Simply run the main Python file:
 
 ```bash
@@ -63,7 +71,7 @@ python main.py
 
 Once the initial setup is complete, the bot will automatically restart itself.
 
-### 4. Configuration & Dashboard
+### 5. Configuration & Dashboard
 Upon successful launch, the bot will display a dashboard with your current configuration. 
 * Press **[ENTER]** to quickly start the bot using your saved settings.
 * Type **`e`** to open the interactive configuration menu where you can adjust:
