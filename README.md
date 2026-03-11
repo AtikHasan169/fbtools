@@ -77,7 +77,7 @@ Upon successful launch, the bot will display a dashboard with your current confi
 * Type **`e`** to open the interactive configuration menu where you can adjust:
     * **Display Mode:** Headless (Hidden), Visible, or Minimized
     * **Human Delays:** Enable or disable realistic typing speeds
-    * **Proxy Network:** Toggle proxies on or off a
+    * **Proxy Network:** Toggle proxies on or off
     * **Active Workers:** Set the number of concurrent browser instances
     * **Execution Style:** Continuous Loop, Standalone Tasks, or OTP Recovery Only
     * **API Auto-Fetch:** Select Watchtower auto-fetch, Manual 3-minute wait, or Instant Park
