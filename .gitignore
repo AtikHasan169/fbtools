@@ -1,0 +1,49 @@
+# -----------------------------
+# Python Environment & Cache
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# -----------------------------
+# Bot Configuration
+# -----------------------------
+config.json
+
+# -----------------------------
+# Bot Input/Output Data
+# -----------------------------
+# Ignores all text files to prevent leaking phones/proxies
+*.txt
+# Allows requirements.txt if you decide to add one
+!requirements.txt
+
+# Ignores generated success logs
+*.xlsx
+success_*.xlsx
+
+# -----------------------------
+# Selenium & Browser Data
+# -----------------------------
+fb_profiles/
+bot_*/
+parked_*/
+scoped_dir*/
+chrome_TEMP*/
+chromedriver
+chromedriver.exe
+
+# -----------------------------
+# Generated ZIPs
+# -----------------------------
+proxy_auth_worker_*.zip
+# update.zip is allowed so you can push updates to your users
+
+# -----------------------------
+# OS Generated Files
+# -----------------------------
+.DS_Store
+Thumbs.db
